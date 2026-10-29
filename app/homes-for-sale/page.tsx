@@ -1,4 +1,3 @@
 import type {Metadata} from "next";
-import Link from "next/link";
-export const metadata:Metadata={title:"Homes for Sale"};
-export default function Page(){return <section className="content"><p className="eyebrow">MARTIS CAMP HOME GUIDE</p><h1>Homes for Sale</h1><p>Current inventory will be displayed here once a permitted listing feed is connected. No property availability is implied.</p><p className="notice">Preview page — this website is under development and is not yet accepting inquiries or showing verified inventory.</p><Link href="/">Back to Home</Link></section>}
+export const metadata:Metadata={title:"Martis Camp Homes for Sale",description:"Browse current Martis Camp listings through Crystal Bauer’s dedicated neighborhood IDX search."};
+export default function Page(){return <section className="content"><p className="eyebrow">MARTIS CAMP PROPERTY SEARCH</p><h1>Martis Camp Homes for Sale</h1><p>Explore current listings, photos, pricing and property details in Crystal’s dedicated Martis Camp neighborhood search.</p><a className="btn" href="https://www.crystalspropertyconnection.com/neighborhood/163128292/martiscamp">View Current Martis Camp Listings</a><p>Looking for a particular setting, architectural style or timeframe? <a href="/schedule-private-tour">Ask Crystal for a personalized search or private tour.</a></p></section>}
