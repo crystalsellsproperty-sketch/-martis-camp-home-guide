@@ -1,2 +1,2 @@
 import type { MetadataRoute } from "next";
-export default function sitemap():MetadataRoute.Sitemap {return ["/","/homes-for-sale","/new-construction","/homesites-for-sale","/market-report","/about-crystal","/schedule-private-tour"].map(path=>({url:"https://martiscamphomeguide.com"+path}));}
+export default function sitemap():MetadataRoute.Sitemap {return ["/","/homes-for-sale","/new-construction","/homesites-for-sale","/market-report","/about-crystal","/schedule-private-tour","/resources","/privacy-policy"].map(path=>({url:"https://martiscamphomeguide.com"+path}));}
